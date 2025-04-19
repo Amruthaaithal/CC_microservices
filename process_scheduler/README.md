@@ -16,7 +16,7 @@ ii. 📌 GET /processes
 
 Returns the list of all currently added processes in the form of table.
 
-iii. 📌 GET /simulate?method=<algorithm>&quantum=<optional>
+iii. 📌 `GET /simulate?method=<algorithm>&quantum=<optional>`
 
 Simulates process scheduling using the specified algorithm.
 
