@@ -16,6 +16,22 @@ ii. 📌 `GET /processes`
 
 Returns the list of all currently added processes in the form of table.
 
+eg:
+[
+  {
+    "arrival_time": 12,
+    "burst_time": 4,
+    "memory_required": 123,
+    "pid": "6"
+  },
+  {
+    "arrival_time": 12,
+    "burst_time": 4,
+    "memory_required": 123,
+    "pid": "6"
+  }
+]
+
 iii. 📌 `GET /simulate?method=<algorithm>&quantum=<optional>`
 
 Simulates process scheduling using the specified algorithm.
