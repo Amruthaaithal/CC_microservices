@@ -1,6 +1,6 @@
 🧩 Endpoints: All these are effectively handled through UI written in index.html
 
-i. 📌 POST /add
+i. 📌 `POST /add`
 
 Adds a new process to the scheduler and registers its memory usage with the shared memory microservice, through the form created using index.html
 
@@ -12,7 +12,7 @@ Request Body (JSON):
   "memory_required": 100
 }
 
-ii. 📌 GET /processes
+ii. 📌 `GET /processes`
 
 Returns the list of all currently added processes in the form of table.
 
