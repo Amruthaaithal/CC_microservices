@@ -10,9 +10,6 @@ Each service is containerized with Docker and communicates via REST APIs.
 
 ---
 
-## 🧱 Architecture
-
-
 
 To visualise the microservices, download the zip file, navigate to the directory and build the container
 Make sure Docker is installed and running:
