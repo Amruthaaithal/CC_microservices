@@ -36,14 +36,22 @@ iii. 📌 `GET /simulate?method=<algorithm>&quantum=<optional>`
 
 Simulates process scheduling using the specified algorithm.
 
+eg: http://localhost:5000/simulate?method=fcfs
+
 Response (JSON):
 [
   {
-    "pid": "P1",
-    "start_time": 0,
-    "completion_time": 5,
-    "turnaround_time": 5,
+    "finish_time": 16,
+    "pid": "6",
+    "start_time": 12,
+    "turnaround_time": 4,
     "waiting_time": 0
   },
-  ...
+  {
+    "finish_time": 20,
+    "pid": "6",
+    "start_time": 16,
+    "turnaround_time": 8,
+    "waiting_time": 4
+  }
 ]
