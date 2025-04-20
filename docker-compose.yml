@@ -18,7 +18,7 @@ services:
       context: ./multithreading_service  # Pointing to the folder where the Dockerfile is located
     container_name: api
     ports:
-      - "8000:8000"
+      - "8002:8000"
     volumes:
       - ./multithreading_service:/app  # Mount the multithreading_service folder as volume
     depends_on:
